@@ -1,0 +1,10 @@
+se\kth\iv1350\processale\integration\Printer.class
+se\kth\iv1350\processale\model\Sale.class
+se\kth\iv1350\processale\startup\Main.class
+se\kth\iv1350\processale\integration\ExternalAccountingSystem.class
+se\kth\iv1350\processale\view\View.class
+se\kth\iv1350\processale\controller\Controller.class
+se\kth\iv1350\processale\integration\AddressDTO.class
+se\kth\iv1350\processale\integration\ExternalInventorySystem.class
+se\kth\iv1350\processale\integration\ExternalSystemHandler.class
+se\kth\iv1350\processale\integration\ItemIdentifier.class
