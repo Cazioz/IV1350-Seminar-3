@@ -65,6 +65,7 @@ public class Sale {
             ExternalSystemHandler integ) {
         AmountDTO returnedChange = this.receipt.enterPayment(amountPaid);
         saleLog.addSaleToLog(this);
+        integ.reportSale(this);
         integ.printReceipt(this.receipt.receiptToString());
         return returnedChange;
     }

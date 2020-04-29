@@ -37,7 +37,7 @@ public class ExternalSystemHandler {
      * 
      * @param currentSale The current sale that shall be reported
      */
-    void reportSale(Sale currentSale) {
+    public void reportSale(Sale currentSale) {
         extInvSys.reportSale(currentSale);
         extAccSys.reportSale(currentSale);
     }

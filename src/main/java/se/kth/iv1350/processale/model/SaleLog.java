@@ -28,7 +28,7 @@ public class SaleLog {
      * 
      * @param saleToBeLogged The Sale that is to be logged
      */
-    public void addSaleToLog(Sale saleToBeLogged) {
+    void addSaleToLog(Sale saleToBeLogged) {
         this.logOfSales.add((saleToBeLogged));
         this.cashInRegister.increaseCashInRegister(
                 new AmountDTO(saleToBeLogged.endSale(), "SEK"));
